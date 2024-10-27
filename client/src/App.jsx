@@ -8,8 +8,9 @@ import ProfilePage from "./pages/ProfilePage";
 import HomePage from "./pages/HomePage";
 import ProtectedRoute from "./ProtectedRoute";
 import { TaskProvider } from "./context/TasksContext";
-import NavBar from "./components/NavBar";
+import NavBarTop from "./components/NavBarTop";
 import Footer from "./components/Footer";
+import NavBarBottom from "./components/NavBarBottom";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Router> {/* Cambiado a HashRouter */}
           {/* <main className="container mx-auto px-3 lg:px-25 pt-20 pb-20"> */}
           <main className=" mx-auto">
-            <NavBar/>
+            <NavBarTop/>
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/login" element={<h1><LoginPage /></h1>} />
@@ -31,7 +32,7 @@ function App() {
               </Route>
               <Route path="*" element={<h1>404 - Page Not Found</h1>} />
             </Routes>
-            
+            <NavBarBottom/>
           </main>
         </Router>
       </TaskProvider>
