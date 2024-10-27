@@ -12,16 +12,16 @@ function NavBarTop() {
   return (
     <nav className="fixed top-0 left-0 w-full flex justify-between items-center px-8 pt-8 bg-transparent z-50">
       {/* Menú hamburguesa a la izquierda */}
-      <button onClick={toggleMenu} className="text-white">
+      <button onClick={toggleMenu} className="text-white ">
         <Bars3Icon className="h-8 w-8" />
       </button>
 
       {/* Logo a la derecha */}
-      <Link to="/" className="h-14 w-14">
+      <Link to="/" className="h-12 w-12">
         <img
-          src={`${import.meta.env.BASE_URL}V_7D.svg`}
+          src={`${import.meta.env.BASE_URL}7DNL.svg`}
           alt="PPI"
-          className="h-full w-full object-cover text-white"
+          className="h-full w-full object-cover"
         />
       </Link>
 

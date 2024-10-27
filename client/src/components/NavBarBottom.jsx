@@ -12,7 +12,7 @@ function NavBarBottom() {
   return (
     <nav className="fixed bottom-0 left-0 w-full flex items-center px-8 pb-8 bg-transparent z-50">
       {/* Icono de cuadrícula a la izquierda */}
-      <button onClick={toggleGridMenu} className="text-white">
+      <button onClick={toggleGridMenu} className="text-white ">
         <Squares2X2Icon className="h-8 w-8" />
       </button>
 
