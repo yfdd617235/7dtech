@@ -36,7 +36,14 @@ const HomaPage = () => {
         <div className="absolute inset-0 bg-black opacity-30"></div>
 
         {/* Overlay Content */}
-        <div className="absolute flex flex-col text-white px-4 md:px-0 text-center">
+        <div className="absolute flex flex-col text-white px-4 md:px-0 items-center">
+          <div className="h-44 w-44">
+            <img
+              src={`${import.meta.env.BASE_URL}7DNL2.svg`}
+              alt="PPI"
+              className="h-full w-full object-cover"
+            />
+          </div>
           <h1
             className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4"
             style={{ textShadow: "2px 2px 10px rgba(0, 0, 0, 1)" }}
