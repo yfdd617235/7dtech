@@ -5,7 +5,7 @@ const HomaPage = () => {
   return (
     <div className="flex flex-col">
       {/* Jumbotron Section */}
-      <div className="relative h-screen w-full bg-center flex justify-center items-center">
+      <div className="relative h-screen w-full bg-center flex justify-center items-center ">
         {/* Video */}
         <video
           className="w-full h-full object-cover"
@@ -36,7 +36,7 @@ const HomaPage = () => {
         <div className="absolute inset-0 bg-black opacity-30"></div>
 
         {/* Overlay Content */}
-        <div className="absolute flex flex-col text-white px-4 md:px-0 items-center">
+        <div className="absolute flex flex-col text-white px-5 md:px-0 items-center">
           <div className="h-44 w-44">
             <img
               src={`${import.meta.env.BASE_URL}7DNL2.svg`}
