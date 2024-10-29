@@ -19,7 +19,7 @@ function NavBarTop() {
       {/* Logo a la derecha */}
       <Link to="/" className="h-12 w-12">
         <img
-          src={`${import.meta.env.BASE_URL}7DNL.svg`}
+          src={`${import.meta.env.BASE_URL}7DNL8.svg`}
           alt="PPI"
           className="h-full w-full object-cover"
         />
