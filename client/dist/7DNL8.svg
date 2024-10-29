@@ -36,8 +36,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="-100 -100 200 200">
   
   <!-- Hexágonos internos -->
-  <!-- <polygon points="0,35 30.31,17.5 30.31,-17.5 0,-35 -30.31,-17.5 -30.31,17.5" fill="none" stroke="#FFFFFF" stroke-width="0.5" />
-  <polygon points="0,45 38.97,22.5 38.97,-22.5 0,-45 -38.97,-22.5 -38.97,22.5" fill="none" stroke="#FFFFFF" stroke-width="0.5" /> -->
+  <polygon points="0,35 30.31,17.5 30.31,-17.5 0,-35 -30.31,-17.5 -30.31,17.5" fill="none" stroke="#FFFFFF" stroke-width="0.5" />
+  <polygon points="0,45 38.97,22.5 38.97,-22.5 0,-45 -38.97,-22.5 -38.97,22.5" fill="none" stroke="#FFFFFF" stroke-width="0.5" />
   <polygon points="0,55 47.63,27.5 47.63,-27.5 0,-55 -47.63,-27.5 -47.63,27.5" fill="none" stroke="#FFFFFF" stroke-width="3" />
   <polygon points="0,65 56.57,32.5 56.57,-32.5 0,-65 -56.57,-32.5 -56.57,32.5" fill="none" stroke="#FFFFFF" stroke-width="1" />
   <polygon points="0,75 65.31,37.5 65.31,-37.5 0,-75 -65.31,-37.5 -65.31,37.5" fill="none" stroke="#FFFFFF" stroke-width="1" />

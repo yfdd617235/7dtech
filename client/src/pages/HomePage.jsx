@@ -64,6 +64,11 @@ const HomaPage = () => {
               className="h-full w-full object-cover"
             />
             <img
+              src={`${import.meta.env.BASE_URL}7DNL6.svg`}
+              alt="PPI"
+              className="h-full w-full object-cover"
+            />
+            <img
               src={`${import.meta.env.BASE_URL}7DNL7.svg`}
               alt="PPI"
               className="h-full w-full object-cover"
