@@ -44,8 +44,6 @@
   <polygon points="0,85 74.06,42.5 74.06,-42.5 0,-85 -74.06,-42.5 -74.06,42.5" fill="none" stroke="#0CC0DF" stroke-width="4" />
 
   <!-- Líneas -->
-
-
   <line x1="0" y1="85" x2="0" y2="0" stroke="#0CC0DF" stroke-width="4" />
   <line x1="74.06" y1="42.5" x2="30.31" y2="17.5" stroke="#0CC0DF" stroke-width="4" />
   <line x1="74.06" y1="-42.5" x2="0" y2="0" stroke="#0CC0DF" stroke-width="4" />
