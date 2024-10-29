@@ -36,33 +36,8 @@ const HomaPage = () => {
         <div className="absolute inset-0 bg-black opacity-30"></div>
 
         {/* Overlay Content */}
-        <div className="absolute flex flex-col text-white px-5 md:px-0 ">
+        <div className="absolute flex flex-col text-white px-5 md:px-0 mx-auto">
           <div className="h-44 w-44 flex">
-            <img
-              src={`${import.meta.env.BASE_URL}7DNL1.svg`}
-              alt="PPI"
-              className="h-full w-full object-cover"
-            />
-            <img
-              src={`${import.meta.env.BASE_URL}7DNL2.svg`}
-              alt="PPI"
-              className="h-full w-full object-cover"
-            />
-            <img
-              src={`${import.meta.env.BASE_URL}7DNL3.svg`}
-              alt="PPI"
-              className="h-full w-full object-cover"
-            />
-            <img
-              src={`${import.meta.env.BASE_URL}7DNL4.svg`}
-              alt="PPI"
-              className="h-full w-full object-cover"
-            />
-            <img
-              src={`${import.meta.env.BASE_URL}7DNL5.svg`}
-              alt="PPI"
-              className="h-full w-full object-cover"
-            />
             <img
               src={`${import.meta.env.BASE_URL}7DNL6.svg`}
               alt="PPI"

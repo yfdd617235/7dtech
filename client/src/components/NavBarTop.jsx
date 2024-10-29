@@ -28,6 +28,11 @@ function NavBarTop() {
           alt="PPI"
           className="h-full w-full object-cover"
         />
+        <img
+          src={`${import.meta.env.BASE_URL}7DNL8.svg`}
+          alt="PPI"
+          className="h-full w-full object-cover"
+        />
       </Link>
 
       {/* Menú desplegable */}
