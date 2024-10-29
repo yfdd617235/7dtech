@@ -38,7 +38,7 @@
   <!-- Hexágonos internos -->
   <!-- <polygon points="0,35 30.31,17.5 30.31,-17.5 0,-35 -30.31,-17.5 -30.31,17.5" fill="none" stroke="#FFFFFF" stroke-width="2" />
   <polygon points="0,45 38.97,22.5 38.97,-22.5 0,-45 -38.97,-22.5 -38.97,22.5" fill="none" stroke="#FFFFFF" stroke-width="2" /> -->
-  <polygon points="0,55 47.63,27.5 47.63,-27.5 0,-55 -47.63,-27.5 -47.63,27.5" fill="none" stroke="#FFFFFF" stroke-width="2" />
+  <polygon points="0,55 47.63,27.5 47.63,-27.5 0,-55 -47.63,-27.5 -47.63,27.5" fill="none" stroke="#FFFFFF" stroke-width="3" />
   <polygon points="0,65 56.57,32.5 56.57,-32.5 0,-65 -56.57,-32.5 -56.57,32.5" fill="none" stroke="#FFFFFF" stroke-width="1" />
   <polygon points="0,75 65.31,37.5 65.31,-37.5 0,-75 -65.31,-37.5 -65.31,37.5" fill="none" stroke="#FFFFFF" stroke-width="1" />
   <polygon points="0,85 74.06,42.5 74.06,-42.5 0,-85 -74.06,-42.5 -74.06,42.5" fill="none" stroke="#0CC0DF" stroke-width="4" />
