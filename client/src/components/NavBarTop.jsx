@@ -27,10 +27,10 @@ function NavBarTop() {
 
       {/* Menú desplegable */}
       {isMenuOpen && (
-        <div className="absolute top-12 left-4 bg-black text-white rounded-md m-8">
-          <ul>
-            <li><Link to="/option1" onClick={() => setIsMenuOpen(false)}>Option 1</Link></li>
-            <li><Link to="/option2" onClick={() => setIsMenuOpen(false)}>Option 2</Link></li>
+        <div className="absolute top-12 left-4 text-white rounded-md m-8">
+          <ul className="flex flex-col gap-1 bg-black">
+            <li className="pointer bg-black p-2 hover:scale-105 hover:bg-[#0cbfdf33] hover:border-[#0CC0DF]"><Link to="/tradingpage" onClick={() => setIsMenuOpen(false)}>Algorithmich and market analysis Software</Link></li>
+            <li className="pointer bg-black p-2 hover:scale-105 hover:bg-[#0cbfdf33] hover:border-[#0CC0DF]"><Link to="/option2" onClick={() => setIsMenuOpen(false)}>BPO Development: Custom software solutions for your business</Link></li>
           </ul>
         </div>
       )}

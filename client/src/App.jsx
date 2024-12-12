@@ -11,6 +11,7 @@ import { TaskProvider } from "./context/TasksContext";
 import NavBarTop from "./components/NavBarTop";
 import Footer from "./components/Footer";
 import NavBarBottom from "./components/NavBarBottom";
+import TradingPage from "./pages/TradingPage"
 
 function App() {
   return (
@@ -19,20 +20,22 @@ function App() {
         <Router> {/* Cambiado a HashRouter */}
           {/* <main className="container mx-auto px-3 lg:px-25 pt-20 pb-20"> */}
           <main className=" mx-auto">
-            <NavBarTop/>
+            <NavBarTop />
             <Routes>
               <Route path="/" element={<HomePage />} />
-              <Route path="/login" element={<h1><LoginPage /></h1>} />
+              <Route path="/tradingpage" element={<TradingPage />} />
+              
+              {/* <Route path="/login" element={<h1><LoginPage /></h1>} />
               <Route element={<ProtectedRoute />}>
-              <Route path="/register" element={<h1><RegisterPage /></h1>} />
+                <Route path="/register" element={<h1><RegisterPage /></h1>} />
                 <Route path="/tasks" element={<TasksPage />} />
                 <Route path="/add-task" element={<TaskFormPage />} />
                 <Route path="/tasks/:id" element={<TaskFormPage />} />
                 <Route path="/profile" element={<ProfilePage />} />
-              </Route>
+              </Route> */}
               <Route path="*" element={<h1>404 - Page Not Found</h1>} />
             </Routes>
-            <NavBarBottom/>
+            <NavBarBottom />
           </main>
         </Router>
       </TaskProvider>

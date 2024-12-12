@@ -20,8 +20,8 @@ function NavBarBottom() {
       {isGridMenuOpen && (
         <div className="absolute bottom-12 left-4 bg-black text-white rounded-md m-8">
           <ul>
-            <li><Link to="/grid1" onClick={() => setIsGridMenuOpen(false)}>Grid Option 1</Link></li>
-            <li><Link to="/grid2" onClick={() => setIsGridMenuOpen(false)}>Grid Option 2</Link></li>
+            <li className="pointer bg-black p-2 hover:scale-105 hover:bg-[#0cbfdf33] hover:border-[#0CC0DF]"><Link to="/grid1" onClick={() => setIsGridMenuOpen(false)}>About us </Link></li>
+            <li className="pointer bg-black p-2 hover:scale-105 hover:bg-[#0cbfdf33] hover:border-[#0CC0DF]"><Link to="/grid2" onClick={() => setIsGridMenuOpen(false)}>Contact</Link></li>
           </ul>
         </div>
       )}
