@@ -12,6 +12,7 @@ import NavBarTop from "./components/NavBarTop";
 import Footer from "./components/Footer";
 import NavBarBottom from "./components/NavBarBottom";
 import TradingPage from "./pages/TradingPage"
+import AboutUs from "./components/AboutUs";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/tradingpage" element={<TradingPage />} />
+              <Route path="/aboutus" element={<AboutUs />} />
               
               {/* <Route path="/login" element={<h1><LoginPage /></h1>} />
               <Route element={<ProtectedRoute />}>

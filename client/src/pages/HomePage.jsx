@@ -8,7 +8,7 @@ const HomaPage = () => {
       <div className="relative h-screen w-full bg-center flex justify-center items-center ">
         {/* Video */}
         <video
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover bg-black opacity-90"
           src={`${import.meta.env.BASE_URL}techworld.mp4`}
           poster={`${import.meta.env.BASE_URL}techworld.png`}
           muted
