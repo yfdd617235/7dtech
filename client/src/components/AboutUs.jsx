@@ -1,50 +1,36 @@
-// import React from 'react'
-
-// function AboutUs() {
-//     return (
-//         <div className='h-screen flex items-center justify-center'>
-//             <div className="">
-//                 <div className="flex flex-col gap-12 md:flex-row justify-center items-center mx-auto py-14 px-4 lg:px-20 2xl:px-60">
-
-//                     <div className="md:w-3/5">
-//                         <h2 className="text-lg md:text-2xl font-bold text-center">About Us</h2>
-//                         <p className="text-justify text-xs md:text-lg my-4">
-//                             Algorithmic trading, also known as algo trading or automated trading, refers to the use of computer programs and algorithms to execute financial market trades. These algorithms follow predefined rules based on various factors such as price, volume, timing, and other market data. The goal is to capitalize on market opportunities with speed and accuracy beyond human capability.
-//                         </p>
-//                     </div>
-
-//                     <div className="flex flex-col md:w-2/5 justify-center items-center space-y-6">
-//                         {/* Video 2 */}
-//                         <div className="w-full">
-//                             <video
-//                                 className="w-full h-full object-contain"
-//                                 src={`${import.meta.env.BASE_URL}chip1.mp4`}
-//                                 poster={`${import.meta.env.BASE_URL}chip1.png`}
-//                                 muted
-//                                 autoPlay
-//                                 loop
-//                                 playsInline
-//                                 onError={(e) => (e.target.style.display = 'none')}
-//                             />
-//                         </div>
-//                     </div>
-
-//                 </div>
-//             </div>
-//         </div>
-
-//     )
-// }
-
-// export default AboutUs
 
 import React from 'react';
 
 function AboutUs() {
   return (
-    <div className="h-screen flex items-center justify-center bg-black text-white">
+    <div className="h-screen flex items-center justify-center bg-black text-white mt-20 md:mt-0">
       <div className="mx-auto py-14 px-4 lg:px-20 2xl:px-60">
         <div className="flex flex-col gap-12 md:flex-row justify-center items-center">
+
+          {/* Video Section */}
+          <div className="flex flex-col md:w-2/5 justify-center items-center">
+          <img
+              src={`${import.meta.env.BASE_URL}logoWH.svg`}
+              alt="PPI"
+              className="h-36 w-full"
+            />
+            {/* Video 1 */}
+            <div className="w-full">
+              <video
+                className="w-full h-full object-contain rounded-lg shadow-lg"
+                src={`${import.meta.env.BASE_URL}chip1.mp4`}
+                poster={`${import.meta.env.BASE_URL}chip1.png`}
+                muted
+                autoPlay
+                loop
+                playsInline
+                onError={(e) => (e.target.style.display = 'none')}
+              />
+            </div>
+          </div>
+
+
+
           {/* Text Section */}
           <div className="md:w-3/5">
             <h2 className="text-lg md:text-2xl font-bold text-center mb-6">About Us</h2>
@@ -62,24 +48,10 @@ function AboutUs() {
             <p className="text-justify text-sm md:text-lg my-4">
               We are pioneers of progress, architects of innovation, and your partners in navigating the complexities of a digital world. At <span className="text-[#0CC0DF] font-bold">7D Technologies</span>, we don’t just create software—we create futures.
             </p>
+            
           </div>
 
-          {/* Video Section */}
-          <div className="flex flex-col md:w-2/5 justify-center items-center space-y-6">
-            {/* Video 1 */}
-            <div className="w-full">
-              <video
-                className="w-full h-full object-contain rounded-lg shadow-lg"
-                src={`${import.meta.env.BASE_URL}chip1.mp4`}
-                poster={`${import.meta.env.BASE_URL}chip1.png`}
-                muted
-                autoPlay
-                loop
-                playsInline
-                onError={(e) => (e.target.style.display = 'none')}
-              />
-            </div>
-          </div>
+
         </div>
       </div>
     </div>

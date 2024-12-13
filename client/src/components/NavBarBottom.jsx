@@ -29,7 +29,7 @@ function NavBarBottom() {
                 About Us
               </Link>
               <Link
-                to="/grid2"
+                to="/contactus"
                 className="pointer border bg-black p-2 hover:bg-[#0cbfdf33] hover:border-[#0CC0DF]"
                 onClick={() => setIsGridMenuOpen(false)}
               >

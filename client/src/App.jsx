@@ -13,6 +13,8 @@ import Footer from "./components/Footer";
 import NavBarBottom from "./components/NavBarBottom";
 import TradingPage from "./pages/TradingPage"
 import AboutUs from "./components/AboutUs";
+import BpoDevelopmentPage from './pages/BpoDevelopmentPage'
+import ContactUs from "./components/ContactUs";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
               <Route path="/" element={<HomePage />} />
               <Route path="/tradingpage" element={<TradingPage />} />
               <Route path="/aboutus" element={<AboutUs />} />
+              <Route path="/bpodevelopmentpage" element={<BpoDevelopmentPage />} />
+              <Route path="/contactus" element={<ContactUs />} />
               
               {/* <Route path="/login" element={<h1><LoginPage /></h1>} />
               <Route element={<ProtectedRoute />}>
